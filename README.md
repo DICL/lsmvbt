@@ -1,5 +1,5 @@
 # LS-MVBT
-In this work, we developed multi-version B-tree with lazy split (LS-MVBT) to resolve the journaling of journal anomaly in Android I/O. The contribution of LS-MVBT consists of two key elements:(i) **Multi-version B-tree**  effectively reduces the number of fsync() calls. (ii) it significantly reduces "the number of dirty pages to be synchronized in a single fsync() call" via optimizing multi-version B-tree for Android I/O. The optimization consists of five elements: **Lazy split**, **Buffer reservation**, **Metadata embedding"", ""Lazy garbage collection**, and **Disabling sibling redistribution**. 
+In this work, we developed multi-version B-tree with lazy split (LS-MVBT) to resolve the journaling of journal anomaly in Android I/O. The contribution of LS-MVBT consists of two key elements:(i) **Multi-version B-tree**  effectively reduces the number of fsync() calls. (ii) it significantly reduces "the number of dirty pages to be synchronized in a single fsync() call" via optimizing multi-version B-tree for Android I/O. The optimization consists of five elements: **Lazy split**, **Buffer reservation**, **Metadata embedding**, **Lazy garbage collection**, and **Disabling sibling redistribution**. 
 
 ## Reference:
 
